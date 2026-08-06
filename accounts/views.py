@@ -121,7 +121,7 @@ def withdraw_view(request):
                     amount=amount,
                     balance_after_transaction=account.balance
                 )
-                messages.success(request, f"Withdrew ${amount:.2f} successfully!")
+                messages.success(request, f"Withdrew ${amount:.2f} successfully!!")
                 return redirect('dashboard')
     else:
         form = TransactionForm()
