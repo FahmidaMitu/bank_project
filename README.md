@@ -32,14 +32,6 @@ A full-featured Bank Account Transaction Management System built with **Django**
 
 ---
 
-## 📸 Screenshots & UI Previews
-
-All required UI screenshots (Registration, Login, Dashboard, Deposit, Withdraw, Transaction History) have been uploaded to Google Drive.
-
-* **Google Drive Link for Screenshots:** [Insert Your Google Drive Link Here]
-
----
-
 ## 🛠️ Tech Stack
 * **Framework:** Python / Django
 * **Frontend:** HTML5, CSS3, Bootstrap 5
@@ -95,7 +87,13 @@ python manage.py runserver
 
 Once the server is running, access the application through these links:
 * **Main Dashboard:** [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* **Admin Panel:** [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
 
+---
 
-## 📸 UI Screenshots
-[Click here to watch the project Screenshots](https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing)
+## 📸 Screenshots & UI Previews
+
+All required UI screenshots (Registration, Login, Dashboard, Deposit, Withdraw, Transaction History) have been uploaded to Google Drive.
+
+* **Google Drive Link for Screenshots:** [https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing]
+
