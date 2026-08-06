@@ -53,8 +53,8 @@ Follow these step-by-step instructions to set up and run the project locally on 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/FahmidaMitu/job_tracker.git
-cd job_tracker
+git clone https://github.com/FahmidaMitu/bank_project.git
+cd bank_project
 ```
 
 ### 2. Set Up Virtual Environment
@@ -97,5 +97,5 @@ Once the server is running, access the application through these links:
 * **Main Dashboard:** [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 
-## 🎥 UI Demonstration Screenshots
+## 📸 UI Screenshots
 [Click here to watch the project Screenshots](https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing)
