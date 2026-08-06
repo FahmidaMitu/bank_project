@@ -56,3 +56,8 @@ Follow these step-by-step instructions to set up and run the project locally on 
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd bank_project
 
+python -m venv venv
+source venv/Scripts/activate
+
+python3 -m venv venv
+source venv/bin/activate
