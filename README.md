@@ -98,4 +98,4 @@ Once the server is running, access the application through these links:
 
 
 ## 🎥 UI Demonstration Screenshots
-[Click here to watch the project Screenshots]()
+[Click here to watch the project Screenshots](https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing)
