@@ -54,7 +54,16 @@ def logout_view(request):
 
 @login_required
 def dashboard_view(request):
-    account = request.user.account
+    try:
+        account = request.user.account
+    except BankAccount.DoesNotExist:
+        account = BankAccount.objects.create(
+            user=request.user,
+            account_holder_name=request.user.get_full_name() or request.user.username,
+            account_number="10000" + str(request.user.id),
+            balance=0.0
+        )
+
     transactions = account.transactions.all()
 
     total_deposits = transactions.filter(transaction_type='DEPOSIT').aggregate(Sum('amount'))['amount__sum'] or 0
@@ -67,7 +76,6 @@ def dashboard_view(request):
         'total_transactions': transactions.count()
     }
     return render(request, 'accounts/dashboard.html', context)
-
 
 @login_required
 def deposit_view(request):
