@@ -51,13 +51,51 @@ All required UI screenshots (Registration, Login, Dashboard, Deposit, Withdraw, 
 
 Follow these step-by-step instructions to set up and run the project locally on your machine:
 
-### Step 1: Clone the Repository
+### 1. Clone the Repository
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd bank_project
+git clone https://github.com/FahmidaMitu/job_tracker.git
+cd job_tracker
+```
 
+### 2. Set Up Virtual Environment
+```bash
+# On Windows
 python -m venv venv
-source venv/Scripts/activate
+venv\Scripts\activate
 
+# On macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install django
+```
+
+### 4. Run Migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5. Create a Superuser (for Admin Access)
+```bash
+python manage.py createsuperuser
+```
+
+### 6. Run the Development Server
+```bash
+python manage.py runserver
+```
+
+---
+
+## 🔗 Project URLs
+
+Once the server is running, access the application through these links:
+* **Main Dashboard:** [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+
+## 🎥 UI Demonstration Screenshots
+[Click here to watch the project Screenshots]()
