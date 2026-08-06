@@ -95,5 +95,5 @@ Once the server is running, access the application through these links:
 
 All required UI screenshots (Registration, Login, Dashboard, Deposit, Withdraw, Transaction History) have been uploaded to Google Drive.
 
-* **Google Drive Link for Screenshots:** [https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing]
+[Google Drive Link for Screenshots] (https://drive.google.com/drive/folders/1UigcxwzDcB3io9iRwlOARpZ-Tdv-88eD?usp=sharing)
 
