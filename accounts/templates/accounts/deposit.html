@@ -1,0 +1,18 @@
+{% extends 'accounts/base.html' %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card p-4 shadow-sm">
+            <h3>Deposit Money</h3>
+            <p>Current Balance: <strong>${{ user.account.balance }}</strong></p>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="mb-3">
+                    {{ form.amount }}
+                </div>
+                <button type="submit" class="btn btn-success w-100">Deposit</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
